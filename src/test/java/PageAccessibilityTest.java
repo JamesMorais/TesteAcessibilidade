@@ -1,6 +1,5 @@
 
 import com.deque.html.axecore.results.Results;
-import com.deque.html.axecore.results.Rule;
 import com.deque.html.axecore.selenium.AxeBuilder;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -10,7 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import utils.ViolationsReporter;
 
 import java.time.Duration;
-import java.util.List;
 
 public class PageAccessibilityTest{
     private WebDriver driver;
@@ -43,17 +41,12 @@ public class PageAccessibilityTest{
     }
 
     @Test
-    @DisplayName("Teste de Acessibilidade da HomePage")
+    @DisplayName("Teste de Acessibilidade da [Nome da Página a ser testada]")
     public void TesteDeAcessibilidadeDaHomePage(){
-        Results results = analisarAcessibilidade("https://lattes.cnpq.br");
+        Results results = analisarAcessibilidade("");
         verificarViolacoes(results);
     }
-    @Test
-    @DisplayName("Teste de acessibilidade da página de busca de curriculo")
-    public void TesteDeAcessibilidadeTelaBuscaCurriculo(){
-        Results results = analisarAcessibilidade("https://buscatextual.cnpq.br/buscatextual/busca.do?metodo=apresentar");
-        verificarViolacoes(results);
-    }
+
     @AfterEach
     public void tearDown(){
         driver.quit();

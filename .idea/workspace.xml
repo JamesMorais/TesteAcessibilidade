@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b58be50-e1b4-4dee-b3ea-189fb0035064" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ViolationsReporter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PageAccessibilityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageAccessibilityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +43,27 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PageAccessibilityTest.TesteDeAcessibilidadeTelaDeLogin">
+  <component name="RunManager" selected="JUnit.PageAccessibilityTest.TesteDeAcessibilidadeDaHomePage">
+    <configuration name="PageAccessibilityTest.TesteDeAcessibilidadeDaHomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TrabalhoIHCTesteUsabilidade" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PageAccessibilityTest" />
+      <option name="METHOD_NAME" value="TesteDeAcessibilidadeDaHomePage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageAccessibilityTest.TesteDeAcessibilidadeTelaBuscaCurriculo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TrabalhoIHCTesteUsabilidade" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PageAccessibilityTest" />
+      <option name="METHOD_NAME" value="TesteDeAcessibilidadeTelaBuscaCurriculo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PageAccessibilityTest.TesteDeAcessibilidadeTelaDeLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TrabalhoIHCTesteUsabilidade" />
       <option name="PACKAGE_NAME" value="" />
@@ -70,6 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PageAccessibilityTest.TesteDeAcessibilidadeDaHomePage" />
+        <item itemvalue="JUnit.PageAccessibilityTest.TesteDeAcessibilidadeTelaBuscaCurriculo" />
         <item itemvalue="JUnit.PageAccessibilityTest.TesteDeAcessibilidadeTelaDeLogin" />
         <item itemvalue="JUnit.PageAccessibilityTest.testLoginPageAccessibilityWithJsonReport" />
       </list>
